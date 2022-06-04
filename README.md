@@ -1,1 +1,2 @@
 # DevopsCapstonePorject# This is Demo Project post Advanced Devops Bootcamp - Nathan
+ docker run --rm --group-add 0 -v //var/run/docker.sock:/var/run/docker.sock -v jenkins_docker_data:/var  -p 8080:8080 --name jenkins docker-in-docker-jenkins
