@@ -31,7 +31,7 @@ Run Sonarqube Manually form locally
 download the sonarqube-jacoco-code-coverage repo and cd to sonarqube-jacoco-code-coverage directory
 
 cinnyabraham06@instance-1:~/sonarqube-jacoco-code-coverage$ ls
-How-to-measure-code-coverage-using-SonarQube-and-Jacoco.jpg  README.md  build.gradle  docker-compose.yml  gradle  gradlew  gradlew.bat  settings.gradle  src
+README.md  build.gradle  docker-compose.yml  gradle  gradlew  gradlew.bat  settings.gradle  src
 
 Run ./gradlew command 
 ./gradlew sonarqube   -Dsonar.projectKey=sonarqubetest   -Dsonar.host.url=http://34.105.75.10:8084   -Dsonar.login=XXXXXXXXXXXXXXXXXXXXXXXXXX
