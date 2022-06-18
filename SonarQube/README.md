@@ -35,3 +35,14 @@ README.md  build.gradle  docker-compose.yml  gradle  gradlew  gradlew.bat  setti
 
 Run ./gradlew command 
 ./gradlew sonarqube   -Dsonar.projectKey=sonarqubetest   -Dsonar.host.url=http://34.105.75.10:8084   -Dsonar.login=XXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+Download Sonar-scanner tool: 
+
+wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.7.0.2747-linux.zip
+   unzip sonar-scanner-cli-4.7.0.2747-linux.zip 
+   cd sonar-scanner-4.7.0.2747-linux/
+   d bin/
+   ./sonar-scanner   -Dsonar.projectKey=sonar   -Dsonar.sources=.   -Dsonar.host.url=http://34.105.75.10:8084   -Dsonar.login=XXXXXXXXXXXXXXXXXXXX
+   validate sonar UI and see if project executed and passed
